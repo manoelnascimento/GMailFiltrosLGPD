@@ -1,2 +1,2 @@
 # GMailFiltrosLGPD
-Filtros LGPD para classificação de mensagens [GMail]
+Filtros para classificação de mensagens abusivas no GMail
