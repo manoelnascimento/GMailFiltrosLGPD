@@ -40,7 +40,13 @@ O desenvolvedor tentou por este caminho, mas não demora muito e volta a receber
 
 Além disso, em certos casos o desenvolvedor suspeita de compartilhamento irregular de dados entre certas empresas. As mensagens organizadas por estes filtros servirão como material para análise, cruzamento de informações, e eventuais medidas corretivas futuras.
 
-## Por que esses filtros foram criados
+## Como se faz para usar esses filtros?
+
+Todos os filtros estão num arquivo XML formatado de acordo com as orientações do próprio Google.
+
+Para usar, basta baixar o arquivo XML e importá-lo para seu GMail, seguindo as [orientações do Google para importação de filtros para o GMail](https://support.google.com/mail/answer/6579?hl=pt#zippy=%2Cedite-ou-elimine-filtros%2Cexporte-ou-importe-filtros)
+
+## Por que esses filtros foram criados?
 
 Meu e-mail do Google é de 2004, quando ainda era possível conseguir nomes simples.
 
