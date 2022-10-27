@@ -38,6 +38,8 @@ A mensagem será considerada indesejada pelo desenvolvedor nas seguintes situaç
 4) Faz menção a homônimos do desenvolvedor ("Manoel Antônio do Nascimento", "Manoel do Nascimento Rodrigues", etc.);
 5) Dá o endereço do desenvolvedor como inscrito em listas nas quais nunca o desenvolvedor nunca se inscreveu.
 
+Tais critérios são **absolutamente pessoais**, portanto **revise os filtros antes de implementá-los**.
+
 ## Por que não excluir imediatamente as mensagens?
 
 O critério para considerar uma mensagem como "indesejada" tem como base interesses do próprio desenvolvedor. Pode ser que os critérios do desenvolvedor não atendam os seu critérios pessoais. Por isso, em vez de apagar as mensagens
