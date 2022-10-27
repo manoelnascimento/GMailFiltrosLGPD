@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:apps="http://schemas.google.com/apps/2006">
+  <title>Filtros LGPD</title>  
   <author>
     <name>Manoel Nascimento</name>
-    <email>manoelnascimento@gmail.com</email>
   </author>
 
 <!-- LGPD: filtros por e-mail -->
@@ -16,7 +16,7 @@
 	</entry>
 	<entry>
 		<category term='filter'></category>
-		<title>Neon (1)</title>
+		<title>Neon</title>
 		<apps:property name='hasTheWord' value='list:(&lt;110005388.xt.local&gt;)'/>
 		<apps:property name='label' value='LGPD/em andamento/sem encarregado/Neon'/>
 		<apps:property name='shouldArchive' value='true'/>
@@ -74,8 +74,8 @@
 	</entry>
 	<entry>
 		<category term='filter'></category>
-		<title>Claro (1)</title>
-		<apps:property name='from' value='(*@minhaclaro.com.br OR *@minhaclaronetresidencialapp.com OR *@minhaclaronetresidencial.com 0R *@claro.com.br OR *@minhanetclaroresidencialapp.com OR *@minhaclaroresidencialnetapp.com)'/>
+		<title>Claro</title>
+		<apps:property name='from' value='(*@minhaclaro.com.br OR *@minhaclaronetresidencialapp.com OR *@minhaclaronetresidencial.com OR *@claro.com.br OR *@minhanetclaroresidencialapp.com OR *@minhaclaroresidencialnetapp.com OR *@minhaclarofaturaapp.com)'/>
 		<apps:property name='label' value='LGPD/em andamento/com encarregado/Claro'/>
 		<apps:property name='shouldNeverSpam' value='true'/>
 		<apps:property name='sizeOperator' value='s_sl'/>
@@ -94,7 +94,7 @@
 	</entry>
 	<entry>
 		<category term='filter'></category>
-		<title>Droga Raia (1)</title>
+		<title>Droga Raia</title>
 		<apps:property name='hasTheWord' value='list:(&lt;110007689.xt.local&gt;)'/>
 		<apps:property name='label' value='LGPD/em andamento/com encarregado/Droga Raia'/>
 		<apps:property name='shouldNeverSpam' value='true'/>
@@ -104,7 +104,7 @@
 	</entry>
 	<entry>
 		<category term='filter'></category>
-		<title>Drogasil (1)</title>
+		<title>Drogasil</title>
 		<apps:property name='hasTheWord' value='list:(&lt;110007689.xt.local&gt;)'/>
 		<apps:property name='label' value='LGPD/resolvidas/com encarregado/Drogasil'/>
 		<apps:property name='shouldNeverSpam' value='true'/>
@@ -185,7 +185,7 @@
 	</entry>
 	<entry>
 		<category term="filter"></category>
-		<title>Nubank (1)</title>
+		<title>Nubank</title>
 		<apps:property name='from' value='(*@nubank.com.br OR *@nu.com.br OR *@nubank.sounu.com.br OR *@sounu.com.br)' />
 		<apps:property name='label' value='LGPD/a encaminhar/Nubank' />
 		<apps:property name='shouldArchive' value='true' />
@@ -193,15 +193,15 @@
 	</entry>
 	<entry>
 		<category term="filter"></category>
-		<title>Acordo Certo</title>
-		<apps:property name='from' value='*@acordocerto.net.br' />
-		<apps:property name='label' value='LGPD/em andamento/com encarregado/Acordo Certo' />
+		<title>Acordo Certo (Boa Vista)</title>
+		<apps:property name='from' value='(*@acordocerto.net.br OR *@acordocerto.com.br)'  />
+		<apps:property name='label' value='LGPD/em andamento/com encarregado/Acordo Certo (Boa Vista)' />
 		<apps:property name='shouldArchive' value='true' />
 		<apps:property name='shouldNeverSpam' value='true'/>
 	</entry>
 	<entry>
 		<category term="filter"></category>
-		<title>DETRAN (1)</title>
+		<title>DETRAN</title>
 		<apps:property name='from' value='(*@portalservicos.denatran.serpro.gov.br OR *@detran.pe.gov.br OR *@detran.rn.gov.br)' />
 		<apps:property name='label' value='LGPD/a encaminhar/DETRAN-DENATRAN' />
 		<apps:property name='shouldArchive' value='true' />
@@ -209,7 +209,7 @@
 	</entry>
 	<entry>
 		<category term="filter"></category>
-		<title>Pernambucanas (1)</title>
+		<title>Pernambucanas</title>
 		<apps:property name='from' value='(*@pernambucanas.com.br OR *@crm.pernambucanas.com.br OR *@faturadigitalpernambucanas.com.br)' />
 		<apps:property name='label' value='LGPD/em andamento/com encarregado/Pernambucanas' />
 		<apps:property name='shouldArchive' value='true' />
@@ -217,8 +217,16 @@
 	</entry>
 	<entry>
 		<category term="filter"></category>
-		<title>Oi (1)</title>
-		<apps:property name='from' value='(*@oi.digital OR *e-negociacao.com)' />
+		<title>Pefisa (Pernambucanas)</title>
+		<apps:property name='from' value='(*@pefisa.com.br)' />
+		<apps:property name='label' value='LGPD/em andamento/com encarregado/Pernambucanas/Pefisa' />
+		<apps:property name='shouldArchive' value='true' />
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term="filter"></category>
+		<title>Oi</title>
+		<apps:property name='from' value='(*@oi.digital OR *e-negociacao.com OR *@mail.oi.com.br)' />
 		<apps:property name='label' value='LGPD/em andamento/com encarregado/Oi' />
 		<apps:property name='label' value='LGPD/em andamento/com encarregado/Oi/e-negociacao.com' />
 		<apps:property name='shouldArchive' value='true' />
@@ -226,7 +234,7 @@
 	</entry>
 	<entry>
 		<category term="filter"></category>
-		<title>Bradesco (1)</title>
+		<title>Bradesco</title>
 		<apps:property name='from' value='(*@bp2contato.com.br OR *@campanhasbradesco.com.br OR *@realjuridica.net.br)' />
 		<apps:property name='label' value='LGPD/em andamento/com encarregado/Bradesco' />
 		<apps:property name='shouldArchive' value='true' />
@@ -234,7 +242,7 @@
 	</entry>
 	<entry>
 		<category term="filter"></category>
-		<title>Cacau Show (1)</title>
+		<title>Cacau Show</title>
 		<apps:property name='from' value='(*@cacaushow.com.br OR *@cacaulovers.com)' />
 		<apps:property name='label' value='LGPD/em andamento/com encarregado/Cacau Show' />
 		<apps:property name='shouldArchive' value='true' />
@@ -242,7 +250,7 @@
 	</entry>
 	<entry>
 		<category term="filter"></category>
-		<title>Viver Mais GSK</title>
+		<title>Viver Mais (GSK)</title>
 		<apps:property name='from' value='*@gsk.vivermaisgsk.com.br' />
 		<apps:property name='label' value='LGPD/em andamento/com encarregado/GSK/Viver Mais' />
 		<apps:property name='shouldArchive' value='true' />
@@ -252,7 +260,7 @@
 		<category term="filter"></category>
 		<title>Love Bakes</title>
 		<apps:property name='from' value='*@lovebakes.com.br' />
-		<apps:property name='label' value='LGPD/em andamento/com encarregado/GSK/Viver Mais' />
+		<apps:property name='label' value='LGPD/a encaminhar/Love Bakes' />
 		<apps:property name='shouldArchive' value='true' />
 		<apps:property name='shouldNeverSpam' value='true'/>
 	</entry>
@@ -324,7 +332,7 @@
 	</entry>
 	<entry>
 		<category term="filter"></category>
-		<title>Vivo (1)</title>
+		<title>Vivo</title>
 		<apps:property name='from' value='(*@vivo.com.br OR cobrancavivo@* )' />
 		<apps:property name='label' value='LGPD/em andamento/com encarregado/Vivo' />
 		<apps:property name='shouldArchive' value='true' />
@@ -332,8 +340,8 @@
 	</entry>
 	<entry>
 		<category term="filter"></category>
-		<title>Sky (1)</title>
-		<apps:property name='from' value='(*@sky.com.br OR sky@negocie.online)' />
+		<title>Sky</title>
+		<apps:property name='from' value='(*@sky.com.br OR sky@negocie.online OR sky*@negocie.online)' />
 		<apps:property name='label' value='LGPD/em andamento/sem encarregado/Sky' />
 		<apps:property name='shouldArchive' value='true' />
 		<apps:property name='shouldNeverSpam' value='true'/>
@@ -469,8 +477,16 @@
 	</entry>
 	<entry>
 		<category term="filter"></category>
-		<title>Smart Fit</title>
+		<title>Smart Fit (1)</title>
 		<apps:property name='from' value='(*@smartfit.com.br OR *@gissonline.com.br)' />
+		<apps:property name='label' value='LGPD/a encaminhar/Smart Fit' />
+		<apps:property name='shouldArchive' value='true' />
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term="filter"></category>
+		<title>Smart Fit (2)</title>
+		<apps:property name='hasTheWord' value='(Smart Fit Maceió)' />
 		<apps:property name='label' value='LGPD/a encaminhar/Smart Fit' />
 		<apps:property name='shouldArchive' value='true' />
 		<apps:property name='shouldNeverSpam' value='true'/>
@@ -797,7 +813,7 @@
 	<entry>
 		<category term='filter'></category>
 		<title>Vale Mais Saúde</title>
-		<apps:property name='frpm' value='(*@progvalemaissaude.com.br)'/>
+		<apps:property name='from' value='(*@progvalemaissaude.com.br)'/>
 		<apps:property name='label' value='LGPD/a encaminhar/Novartis/Vale Mais Saúde'/>
 		<apps:property name='shouldArchive' value='true'/>
 		<apps:property name='shouldNeverSpam' value='true'/>
@@ -1053,7 +1069,7 @@
 	<entry>
 		<category term='filter'></category>
 		<title>Tokio Marine</title>
-		<apps:property name='from' value='(*@tokiomarine.com.br)'/>
+		<apps:property name='from' value='(*@tokiomarine.com.br OR *@mail-tokiomarine.com.br)'/>
 		<apps:property name='label' value='LGPD/em andamento/com encarregado/Tokio Marine'/>
 		<apps:property name='shouldArchive' value='true'/>
 		<apps:property name='shouldNeverSpam' value='true'/>
@@ -1175,6 +1191,271 @@
 		<title>GetNet</title>
 		<apps:property name='from' value='(*@mktgetnet.com.br OR *@getnet.com.br)'/>
 		<apps:property name='label' value='LGPD/a encaminhar/GetNet'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Banco Inbursa Comercial</title>
+		<apps:property name='from' value='(*@inbursa.com)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Banco Inbursa Comercial'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Empregos.com.br</title>
+		<apps:property name='from' value='(*@empregos.com.br)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Empregos.com.br'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>ePharma Tecnologia</title>
+		<apps:property name='from' value='(*@epharmatecnologia.com.br OR *@novonordisk.com OR *@programanovodia.com.br)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/ePharma'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Yukaline Telecom</title>
+		<apps:property name='from' value='(*@yukaline.com.br)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Yukaline Telecom'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>COPEL</title>
+		<apps:property name='from' value='(*@copel.com OR *faturamento.copel.com)'/>
+		<apps:property name='label' value='LGPD/em andamento/com encarregado/COPEL'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Catalysta</title>
+		<apps:property name='from' value='(*@catalysta.com.br)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Catalysta'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Alva Cosméticos</title>
+		<apps:property name='from' value='(*@alvacosmeticos.com.br)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Alva Cosméticos'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Schulze Recuperação de Crédito</title>
+		<apps:property name='from' value='(*@schulze.com.br)'/>		
+		<apps:property name='label' value='LGPD/a encaminhar/Schulze Recuperação de Crédito'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Nicolait</title>
+		<apps:property name='from' value='(*@nicolait.com.br)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Nicolait'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>ASC Brazil</title>
+		<apps:property name='from' value='(*@ascbrazil.com.br)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/ASC Brazil'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Super Acordo</title>
+		<apps:property name='from' value='(*@superacordo.com.br)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Super Acordo'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Medallia</title>
+		<apps:property name='from' value='(*medallia.com)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Medallia'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Infocu</title>
+		<apps:property name='from' value='(*infocu.com.br)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Infocu'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+
+	<entry>
+		<category term='filter'></category>
+		<title>Petite Jolie</title>
+		<apps:property name='from' value='(*@picpay.com)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/PicPay'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Up Cities</title>
+		<apps:property name='from' value='(*@upcities.app)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Up Cities'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Pref. Vila Velha</title>
+		<apps:property name='from' value='(*@upcities.app)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Pref. Vila Velha'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>EPASA</title>
+		<apps:property name='from' value='(*@epasa.com.br)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/EPASA'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Estaleiro Jurong Aracruz</title>
+		<apps:property name='from' value='(*@jurong.com.br)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Estaleiro Jurong Aracruz'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Novo Nordisk Farmaceutica</title>
+		<apps:property name='from' value='(*@jprogramanovodia.com.br OR *@novonordisk.com OR *@programanovodia.com.br'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Novo Nordisk Farmaceutica'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>	
+	<entry>
+		<category term='filter'></category>
+		<title>Psicologia Viva</title>
+		<apps:property name='from' value='(*@psicologiaviva.com.br)'/>
+		<apps:property name='label' value='LGPD/em andamento/sem encarregado/Psicologia Viva'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Omes Serviços Digitais</title>
+		<apps:property name='from' value='(*@omes.com.br)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Omes Serviços Digitais'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Rappi</title>
+		<apps:property name='from' value='(*@rappi.com.br)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Rappi'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Adecco Recursos Humanos</title>
+		<apps:property name='from' value='(*@adecco.com)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Adecco Recursos Humanos'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Salgado Imóveis</title>
+		<apps:property name='from' value='(paulosalgadoimoveis@gmail.com)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Salgado Imóveis'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Virtus Pay</title>
+		<apps:property name='from' value='(*@usevirtus.com.br OR *@virtuspay.com.br)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Virtus Pay'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Ultrafarma</title>
+		<apps:property name='from' value='(*@ultrafarma.com.br)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Ultrafarma'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Azul</title>
+		<apps:property name='from' value='(*@voeazul.com.br OR *@news-voeazul.com.br)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Azul'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Sociedade Secreta</title>
+		<apps:property name='from' value='(*@novasociedadesecreta.com)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Sociedade Secreta'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Negocie Online</title>
+		<apps:property name='from' value='(*@negocie.online)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Negocie Online'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Shell</title>
+		<apps:property name='from' value='(*@shell.com.br OR *@e.shell.com.br)'/>
+		<apps:property name='label' value='LGPD/em andamento/sem encarregado/Shell'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>São Paulo Mania</title>
+		<apps:property name='from' value='(*@saopaulomania.com.br OR *@*.saopaulomania.com.br)'/>
+		<apps:property name='label' value='LGPD/em andamento/sem encarregado/Shell'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Personalcob Serviços Financeiros</title>
+		<apps:property name='from' value='(*@pointersend.com.br)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Personalcob Serviços Financeiros'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Pontal Serviços de Comunicação Digital</title>
+		<apps:property name='from' value='(*@pointersend.com.br OR *@pontaltech.com.br)'/>
+		<apps:property name='label' value='LGPD/a encaminhar/Pontal Serviços de Comunicação Digital'/>
 		<apps:property name='shouldArchive' value='true'/>
 		<apps:property name='shouldNeverSpam' value='true'/>
 	</entry>
