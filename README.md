@@ -28,6 +28,26 @@ Assim que termina este processo de verificação humana, dá início, também pe
 2) Se existe, adiciona o novo nome de domínio à etiqueta já existente;
 3) Se não existe, cria nova etiqueta.
 
+## O que o desenvolvedor considera como "mensagem indesejada"?
+
+A mensagem será considerada indesejada pelo desenvolvedor nas seguintes situações:
+
+1) Faz cobranças em favor de empresas com quem o desenvolvedor nunca teve relação;
+2) Oferece serviços que o desenvolvedor nunca pesquisou;
+3) Oferece produtos pelos quais o desenvolvedor nunca se interessou;
+4) Faz menção a homônimos do desenvolvedor ("Manoel Antônio do Nascimento", "Manoel do Nascimento Rodrigues", etc.);
+5) Dá o endereço do desenvolvedor como inscrito em listas nas quais nunca o desenvolvedor nunca se inscreveu.
+
+## Por que não excluir imediatamente as mensagens?
+
+O critério para considerar uma mensagem como "indesejada" tem como base interesses do próprio desenvolvedor. Pode ser que os critérios do desenvolvedor não atendam os seu critérios pessoais. Por isso, em vez de apagar as mensagens
+
+## Nâo é mais fácil marcar as mensagens indesejadas como spam?
+
+O desenvolvedor tentou por este caminho, mas não demora muito e volta a receber mensagens semelhantes àquelas de cuja lista de destinatários se retirou.
+
+Além disso, em certos casos o desenvolvedor suspeita de compartilhamento irregular de dados entre certas empresas. As mensagens organizadas por estes filtros servirão como material para análise, cruzamento de informações, e eventuais medidas corretivas futuras.
+
 ## Por que existe uma hierarquia de etiquetas?
 
 Além da "etiqueta-mãe" chamada "LGPD", existe uma hierarquia de etiquetas, assim definida:
@@ -52,26 +72,6 @@ Agrupam pessoas e empresas que o desenvolvedor ainda não contatou.
 
 As mensagens indesejadas redigidas em outros idiomas além do português são descartadas porque o desenvolvedor já identificou a presença seu endereço de correio eletrônico em listas de dados vazados em incidentes de segurança, e porque é mais fácil para o desenvolvedor lidar com os remetentes contumazes sediados no Brasil, por causa da Lei Geral de Proteção de Dados (LGPD).
 
-### O que o desenvolvedor considera como "mensagem indesejada"?
-
-A mensagem será considerada indesejada pelo desenvolvedor nas seguintes situações:
-
-1) Faz cobranças em favor de empresas com quem o desenvolvedor nunca teve relação;
-2) Oferece serviços que o desenvolvedor nunca pesquisou;
-3) Oferece produtos pelos quais o desenvolvedor nunca se interessou;
-4) Faz menção a homônimos do desenvolvedor ("Manoel Antônio do Nascimento", "Manoel do Nascimento Rodrigues", etc.);
-5) Dá o endereço do desenvolvedor como inscrito em listas nas quais nunca o desenvolvedor nunca se inscreveu.
-
-## Por que não excluir imediatamente as mensagens?
-
-O critério para considerar uma mensagem como "indesejada" tem como base interesses do próprio desenvolvedor. Pode ser que os critérios do desenvolvedor não atendam os seu critérios pessoais. Por isso, em vez de apagar as mensagens
-
-## Nâo é mais fácil marcar as mensagens indesejadas como spam?
-
-O desenvolvedor tentou por este caminho, mas não demora muito e volta a receber mensagens semelhantes àquelas de cuja lista de destinatários se retirou.
-
-Além disso, em certos casos o desenvolvedor suspeita de compartilhamento irregular de dados entre certas empresas. As mensagens organizadas por estes filtros servirão como material para análise, cruzamento de informações, e eventuais medidas corretivas futuras.
-
 ## Como se faz para usar esses filtros?
 
 Todos os filtros estão num arquivo XML formatado de acordo com os [operadores de busca do próprio Google[(https://support.google.com/mail/answer/7190?hl=en).
@@ -93,5 +93,3 @@ Percebi que filtros de mensagens poderiam servir para automatizar esta tarefa. C
 Entendi que o mesmo problema acontece com outras pessoas quando vi a caixa de entrada dos correios eletrônicos de alguns amigos. Compartilhei meus filtros, e vi resultados muito rápidos.
 
 Dada a utilidade pública desses filtros, resolvi compartilhá-los via GitHub.
-
-
