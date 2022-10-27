@@ -1,0 +1,3 @@
+# Ignorar temporários do Bluefish
+*.xml~
+*~
