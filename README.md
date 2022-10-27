@@ -8,8 +8,8 @@ Conteúdo
 
 -   [GMailFiltrosLGPD](#gmailfiltroslgpd)
 -   [Conteúdo](#conteúdo)
-    -   [O que é isso?`<a name="oqueéisso?">`{=html}`</a>`{=html}](#o-que-é-isso)
-    -   [O que estes filtros fazem?`<a name="oqueessesfiltrosfazem?">`{=html}`</a>`{=html}](#o-que-estes-filtros-fazem)
+    -   [O que é isso?](#o-que-é-isso)
+    -   [O que estes filtros fazem?](#o-que-estes-filtros-fazem)
     -   [Como a base de remetentes indesejados é construída?](#como-a-base-de-remetentes-indesejados-é-construída)
     -   [Modo de usar](#modo-de-usar)
         -   [Como se faz para usar esses filtros?](#como-se-faz-para-usar-esses-filtros)
@@ -94,7 +94,7 @@ antes de implementá-los em seu GMail.
 
 ### Como posso revisar os filtros antes de implementá-los num GMail?
 
-Cada filtro está encapsulado entre etiquetas ```{=html} <pre><entry></pre>``` e ```{=html} <pre></entry></pre>```. Para revisá-los, o procedimento é simples:
+Cada filtro está encapsulado entre etiquetas ```<entry>``` e ```</entry>```. Para revisá-los, o procedimento é simples:
 
 1)  Baixe o arquivo XML que contém os filtros;
 2)  Examine filtro a filtro;
@@ -185,9 +185,9 @@ Por outro lado, o tratamento irregular dos dados do desenvolvedor por você ou s
 
 Sobre este último ponto, necessária alguma explicação:
 
-1)  Para o Google, pouco importa que um endereço seja dado como "austregesilo.de.athayde\@gmail.com", "austregesilodeathayde\@gmail.com", "austregesilo.deathayde\@gmail.com" ou qualquer outra variação com ponto; em todos estes casos, quem recebe as mensagens é austregesilodeathayde\@gmail.com", porque [pontos são irrelevantes nos endereços do GMail](https://support.google.com/mail/answer/7436150).
-2)  Para o Google, não adianta tentar criar o endereço "austregesilo.de.athayde\@gmail.com" depois de alguém já ter criado o endereço "austregesilodeathayde\@gmail.com"; como [pontos são irrelevantes nos endereços do GMail](https://support.google.com/mail/answer/7436150), aquela primeira versão simplesmente não será criada.
-3)  Para o Google, quem cria o endereço "austregesilo.de.athayde\@gmail.com" tem direito, automaticamente, a usar o endereço "austregesilodeathayde\@gmail.com", porque quem cria uma versão com ponto cria também a versão sem ponto, e vice-versa.
+1)  Para o Google, pouco importa que um endereço seja dado como ```austregesilo.de.athayde\@gmail.com```, ```austregesilodeathayde\@gmail.com```, ```austregesilo.deathayde\@gmail.com``` ou qualquer outra variação com ponto; em todos estes casos, quem recebe as mensagens é ```austregesilodeathayde\@gmail.com```, porque [pontos são irrelevantes nos endereços do GMail](https://support.google.com/mail/answer/7436150).
+2)  Para o Google, não adianta tentar criar o endereço ```austregesilo.de.athayde\@gmail.com``` depois de alguém já ter criado o endereço ```austregesilodeathayde\@gmail.com```; como [pontos são irrelevantes nos endereços do GMail](https://support.google.com/mail/answer/7436150), aquela primeira versão simplesmente não será criada.
+3)  Para o Google, quem cria o endereço ```austregesilo.de.athayde\@gmail.com``` tem direito, automaticamente, a usar o endereço ```austregesilodeathayde\@gmail.com```, porque quem cria uma versão com ponto cria também a versão sem ponto, e vice-versa.
 
 Se você ou sua empresa entrarem em contato via filtrosgmail\@mmnj.adv.br demonstrando que o tratamento irregular de dados pessoais do desenvolvedor foi resolvido, será um prazer retirar seu nome, ou o de sua empresa, da lista de remetentes contumazes de mensagens indesejadas.
 
