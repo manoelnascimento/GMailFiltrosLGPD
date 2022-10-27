@@ -76,7 +76,7 @@ As mensagens indesejadas redigidas em outros idiomas além do português são de
 
 ## Como se faz para usar esses filtros?
 
-Todos os filtros estão num arquivo XML formatado de acordo com os [operadores de busca do próprio Google[(https://support.google.com/mail/answer/7190?hl=en).
+Todos os filtros estão num arquivo XML formatado de acordo com os [operadores de busca do próprio Google](https://support.google.com/mail/answer/7190?hl=en).
 
 O arquivo XML foi criado usando um arquivo exportado do próprio GMail.
 
