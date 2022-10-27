@@ -38,7 +38,7 @@ A mensagem será considerada indesejada pelo desenvolvedor nas seguintes situaç
 4) Faz menção a homônimos do desenvolvedor ("Manoel Antônio do Nascimento", "Manoel do Nascimento Rodrigues", etc.);
 5) Dá o endereço do desenvolvedor como inscrito em listas nas quais nunca o desenvolvedor nunca se inscreveu.
 
-Tais critérios são **absolutamente pessoais**, portanto **revise os filtros antes de implementá-los**.
+Tais critérios são **absolutamente pessoais**. Pode ser que não se adequem às suas necessidades, ou que interfiram negativamente em suas comunicações. Por isso, **revise os filtros antes de implementá-los**. O desenvolvedor **não se responsabiliza** por qualquer interferência negativa causada por esses filtros se vocẽ não os revisar antes de implementá-los em seu GMail.
 
 ## Por que não excluir imediatamente as mensagens?
 
@@ -80,7 +80,15 @@ Todos os filtros estão num arquivo XML formatado de acordo com os [operadores d
 
 O arquivo XML foi criado usando um arquivo exportado do próprio GMail.
 
-Para usar os filtros deste repositório, basta baixar o arquivo XML e importá-lo para seu GMail, seguindo as [orientações do Google para importação de filtros para o GMail](https://support.google.com/mail/answer/6579?hl=pt#zippy=%2Cedite-ou-elimine-filtros%2Cexporte-ou-importe-filtros)
+Para usar os filtros deste repositório, basta baixar o arquivo XML e importá-lo para seu GMail, seguindo as [orientações do Google para importação de filtros para o GMail](https://support.google.com/mail/answer/6579?hl=pt#zippy=%2Cedite-ou-elimine-filtros%2Cexporte-ou-importe-filtros).
+
+## Como posso revisar os filtros antes de implementá-los num GMail?
+
+1) Baixe o arquivo XML que contém os filtros;
+2) Examine filtro a filtro;
+3) Faça as modificações necessárias.
+
+Cada filtro está encapsulado entre etiquetas <entry> e </entry>.
 
 ## Por que esses filtros foram criados?
 
