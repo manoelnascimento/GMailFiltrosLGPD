@@ -72,13 +72,12 @@ Para usar os filtros deste repositório, basta baixar o arquivo XML e importá-l
 
 A principal ferramenta usada são os coringas, como nos exemplos a seguir:
 
-`<code>`{=html}
-*teste*\@exemplo.com.br</br>
+`*teste*\@exemplo.com.br</br>
 *teste*\@exemplo.com</br>
 *teste*@*exemplo*</br>
 *teste*\@exemplo.*</br>
 *teste*@*.exemplo*</br>
-*teste*@*.exemplo.* `</code>`{=html}
+*teste*@*.exemplo.*`
 
 ### Por que preciso revisar os filtros antes de implementá-los num GMail?
 
