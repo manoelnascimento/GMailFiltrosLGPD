@@ -80,11 +80,11 @@ Além da "etiqueta-mãe" chamada "LGPD", existe uma hierarquia de etiquetas, ass
 
 Agrupam pessoas e empresas que o desenvolvedor já identificou, e com quem já tentou contato para fazer parar as mensagens indesejadas. Dentro desta etiqueta, existem outras duas:
 
-#### "com encarregado"
+##### "com encarregado"
 
 Para as pessoas e empresas cujo encarregado pelo tratamento de dados (ETD, ou *data protection officer* -- DPO) foi identificado. No futuro, o desenvolvedor poderá apresentar aqui, ou em outro lugar, uma relação dos contatos destes ETD/DPO.
 
-#### "sem encarregado"
+##### "sem encarregado"
 
 Para as pessoas e empresas cujo ETD/DPO não foi possível de localizar, ou não tinha localização fácil. Para efeitos da LGPD, uma controladora/operadora cujos contatos de ETD/DPO não estão facilmente disponíveis não atende aos deveres legais, e pode-se considerar como se não tivesse, efetivamente, um ETD/DPO.
 
