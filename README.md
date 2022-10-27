@@ -28,6 +28,7 @@ Assim que termina este processo de verificação humana, dá início, também pe
 2) Se existe, adiciona o novo nome de domínio à etiqueta já existente;
 3) Se não existe, cria nova etiqueta.
 
+Tais critérios são **absolutamente pessoais**. Pode ser que não se adequem às suas necessidades, ou que interfiram negativamente em suas comunicações. Por isso, **revise os filtros antes de implementá-los**. O desenvolvedor **não se responsabiliza** por qualquer interferência negativa causada por esses filtros se vocẽ não os revisar antes de implementá-los em seu GMail.
 
 ## Modo de usar
 
