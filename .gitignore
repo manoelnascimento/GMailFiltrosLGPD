@@ -1,3 +1,4 @@
 # Ignorar temporários do Bluefish
 *.xml~
 *~
+README_TOC.md
