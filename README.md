@@ -41,6 +41,17 @@ O arquivo XML foi criado usando um arquivo exportado do próprio GMail.
 
 Para usar os filtros deste repositório, basta baixar o arquivo XML e importá-lo para seu GMail, seguindo as [orientações do Google para importação de filtros para o GMail](https://support.google.com/mail/answer/6579?hl=pt#zippy=%2Cedite-ou-elimine-filtros%2Cexporte-ou-importe-filtros).
 
+A principal ferramenta usada são os coringas, como nos exemplos a seguir:
+
+<code>
+*teste*@exemplo.com.br
+*teste*@exemplo.com
+*teste*@*exemplo*
+*teste*@exemplo.*
+*teste*@*.exemplo*
+*teste*@*.exemplo.*
+</code>
+
 ### Como posso revisar os filtros antes de implementá-los num GMail?
 
 1) Baixe o arquivo XML que contém os filtros;

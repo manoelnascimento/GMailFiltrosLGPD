@@ -210,7 +210,7 @@
 	<entry>
 		<category term="filter"></category>
 		<title>Pernambucanas</title>
-		<apps:property name='from' value='(*@pernambucanas.com.br OR *@crm.pernambucanas.com.br OR *@faturadigitalpernambucanas.com.br)' />
+		<apps:property name='from' value='(*@pernambucanas.com.br OR *@*.pernambucanas.com.br OR *@*pernambucanas.com.br OR *pernambucanas*@* OR *pernambucanas@*)' />
 		<apps:property name='label' value='LGPD/em andamento/com encarregado/Pernambucanas' />
 		<apps:property name='shouldArchive' value='true' />
 		<apps:property name='shouldNeverSpam' value='true'/>
