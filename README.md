@@ -25,13 +25,13 @@ Conteúdo
         -   [Meu nome, ou o da minha empresa, estão nessa lista. Isso quer dizer que eu estou irregular?](#meu-nome-ou-o-da-minha-empresa-estão-nessa-lista.-isso-quer-dizer-que-eu-estou-irregular)
         -   [Por que esses filtros foram criados?](#por-que-esses-filtros-foram-criados)
 
-O que é isso?`<a name="oqueéisso?">`{=html}`</a>`{=html}
---------------------------------------------------------
+O que é isso?
+-------------
 
 É uma coleção de filtros para GMail, que ajudam a classificar mensagens indesejadas para análise posterior.
 
-O que estes filtros fazem?`<a name="oqueessesfiltrosfazem?">`{=html}`</a>`{=html}
----------------------------------------------------------------------------------
+O que estes filtros fazem?
+--------------------------
 
 1)  Reconhecem mensagens recebidas de remetentes identificados pelo desenvolvedor como emissores contumazes de mensagens indesejadas;
 2)  Etiquetam essas mensagens, de acordo com a hierarquia de etiquetas definida pelo desenvolvedor;
