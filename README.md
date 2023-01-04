@@ -99,7 +99,7 @@ Cada filtro está encapsulado entre etiquetas ```<entry>``` e ```</entry>```. Pa
 2)  Examine filtro a filtro;
 3)  Faça as modificações necessárias.
 
-É preciso, claro, que se tenha algum conhecimento em XML, e também sobre os [operadores de busca do Google](https://support.google.com/mail/answer/7190?hl=en).
+É preciso, claro, que se tenha algum conhecimento em XML, e também sobre os [operadores de busca do Google](https://support.google.com/mail/answer/7190?hl=pt-BR).
 
 Perguntas e respostas
 ---------------------
@@ -180,12 +180,12 @@ Por outro lado, o tratamento irregular dos dados do desenvolvedor por você ou s
 2)  Uso de cadastros "frios", ou seja, recebido de terceiros (via compra, compartilhamento, doação, etc.) sem checagem e validação da base de dados em busca de consentimento;
 3)  Erros de digitação no cadastro;
 4)  Uso irregular de dados do desenvolvedor por homônimos ou parônimos;
-5)  Cadastro, por homônimos ou parônimos, de endereços de correio eletrônico que não observam o fato de que [pontos são irrelevantes nos endereços do GMail](https://support.google.com/mail/answer/7436150), "criam" endereços que supõem serem seus, mas terminam [direcionando mensagens para alguma conta GMail do desenvolvedor](https://support.google.com/mail/answer/10313?hl=pt-BR#zippy=%2Crecebi-mensagens-enviadas-para-uma-vers%C3%A3o-com-pontos-do-meu-endere%C3%A7o).
+5)  Cadastro, por homônimos ou parônimos, de endereços de correio eletrônico que não observam o fato de que [pontos são irrelevantes nos endereços do GMail](https://support.google.com/mail/answer/7436150?hl=pt-BR), "criam" endereços que supõem serem seus, mas terminam [direcionando mensagens para alguma conta GMail do desenvolvedor](https://support.google.com/mail/answer/10313?hl=pt-BR#zippy=%2Crecebi-mensagens-enviadas-para-uma-vers%C3%A3o-com-pontos-do-meu-endere%C3%A7o).
 
 Sobre este último ponto, necessária alguma explicação:
 
-1)  Para o Google, pouco importa que um endereço seja dado como ```austregesilo.de.athayde@gmail.com```, ```austregesilodeathayde@gmail.com```, ```austregesilo.deathayde@gmail.com``` ou qualquer outra variação com ponto; em todos estes casos, quem recebe as mensagens é ```austregesilodeathayde@gmail.com```, porque [pontos são irrelevantes nos endereços do GMail](https://support.google.com/mail/answer/7436150).
-2)  Para o Google, não adianta tentar criar o endereço ```austregesilo.de.athayde@gmail.com``` depois de alguém já ter criado o endereço ```austregesilodeathayde@gmail.com```; como [pontos são irrelevantes nos endereços do GMail](https://support.google.com/mail/answer/7436150), aquela primeira versão simplesmente não será criada.
+1)  Para o Google, pouco importa que um endereço seja dado como ```austregesilo.de.athayde@gmail.com```, ```austregesilodeathayde@gmail.com```, ```austregesilo.deathayde@gmail.com``` ou qualquer outra variação com ponto; em todos estes casos, quem recebe as mensagens é ```austregesilodeathayde@gmail.com```, porque [pontos são irrelevantes nos endereços do GMail](https://support.google.com/mail/answer/7436150?hl=pt-BR).
+2)  Para o Google, não adianta tentar criar o endereço ```austregesilo.de.athayde@gmail.com``` depois de alguém já ter criado o endereço ```austregesilodeathayde@gmail.com```; como [pontos são irrelevantes nos endereços do GMail](https://support.google.com/mail/answer/7436150?hl=pt-BR), aquela primeira versão simplesmente não será criada.
 3)  Para o Google, quem cria o endereço ```austregesilo.de.athayde@gmail.com``` tem direito, automaticamente, a usar o endereço ```austregesilodeathayde@gmail.com```, porque quem cria uma versão com ponto cria também a versão sem ponto, e vice-versa.
 
 Se você ou sua empresa entrarem em contato via filtrosgmail\@mmnj.adv.br demonstrando que o tratamento irregular de dados pessoais do desenvolvedor foi resolvido, será um prazer retirar seu nome, ou o de sua empresa, da lista de remetentes contumazes de mensagens indesejadas.
